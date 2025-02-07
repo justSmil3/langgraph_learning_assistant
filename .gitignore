@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.envrc
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and databases
+logs/
+*.log
+*.sqlite3
+*.db
+
+# Cython
+cython_debug/
+
+# Docker
+docker-compose.override.yml
+
+# Coverage reports
+.coverage
+htmlcov/
+*.cover
+*.coverage.*
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Terraform
+.terraform/
+
+# Ignore local environment files
+.env
+*.env
+.env.local
+.env.*.local
+
+# Ignore secrets (if any)
+secrets.json
+config.json
+
